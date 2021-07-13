@@ -166,7 +166,6 @@ nav {
 .course-info {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .fa-star.filled {
@@ -254,8 +253,11 @@ nav {
     }
 
     .courses {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 50px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .course{
+        margin-bottom: 20px;
     }
 }
